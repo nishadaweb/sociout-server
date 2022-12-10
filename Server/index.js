@@ -14,7 +14,7 @@ import { mongoconnection } from "./config/db.js";
 //Routes
 const app = express();
 //to serve images for public
-app.use(express.static("public"));
+app.use(express.static("Public"));
 app.use("/images", express.static("images"));
 //MiddleWare
 app.use(bodyParser.json({ limit: "30mb", extended: true }));

@@ -1,6 +1,7 @@
 const io = require("socket.io")(8800, {
   cors: {
     origin: "https://main.d2ltn75dce3jvx.amplifyapp.com",
+    
   },
 });
 let activeUsers = [];
